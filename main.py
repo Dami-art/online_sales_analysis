@@ -5,18 +5,22 @@ import random
 
 manager = ProductManager()
 
-p1 = Product("Laptop", 1200, 1)
-p2 = Product("Mouse", 25, 10)
-p3 = Product("Keyboard", 45, 5)
-p4 = Product("Monitor", 300, 2)
+p1 = Product("Gaming Laptop", 1200, 1)
+p2 = Product("Mouse", 25, 11)
+p3 = Product("Mechanical Keyboard", 45, 2)
+p4 = Product("Monitor", 300, 22)
+
+#p1.name = "Gaming Laptop"
+#p2.quantity = 11
+#p3.name = "Mechanical Keyboard"
+#p4.quantity = 22
 
 manager.add_product(p1)
 manager.add_product(p2)
 manager.add_product(p3)
 manager.add_product(p4)
 
-manager.display_products()
-print("Total value of inventory:", manager.total_value())
+
 
 cart = Cart()
 
